@@ -1,0 +1,14 @@
+{
+  "name": "send-transactions",
+  "version": "1.0.0",
+  "description": "Send 100 transactions to an address.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "niemal",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "web3": "^4.5.0"
+  }
+}
