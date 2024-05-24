@@ -6,6 +6,7 @@ const recipientAddress = "0xef4dea791c782c0b82f33d2df41d4188016d6494";
 const numTransactions = 100;
 const iterations = 50;
 const amountToSend = "0.00006"; // 27 kelp
+const chainId = 42161;
 
 const RPC_URLS = [
   "https://arbitrum.llamarpc.com",
@@ -42,6 +43,7 @@ async function sendTransactions() {
         to: recipientAddress,
         value,
         gasPrice,
+        chainId,
         gas: gasLimit,
       };
 
